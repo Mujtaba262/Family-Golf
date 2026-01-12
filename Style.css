@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+    color: aliceblue;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    height: 130px;
+    width: 100%;    
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 40px;
+    position: fixed;
+    z-index: 99;
+}
+#nav img{
+    height: 70px;
+}
+#nav h4{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#bg-video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+}
