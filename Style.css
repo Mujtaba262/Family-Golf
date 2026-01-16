@@ -52,6 +52,11 @@ a{
   z-index: 9;
   transition: all linear 0.4s;
 }
+#cursor,
+#cursor-blur {
+  pointer-events: none;
+}
+
 video{
     height: 100%;
     width: 100%;
